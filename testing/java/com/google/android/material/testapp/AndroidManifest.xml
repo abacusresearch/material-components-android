@@ -28,49 +28,109 @@
 
     <activity
       android:name=".AppBarHorizontalScrollingActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".AppBarLayoutCollapsePinActivity"
-      android:theme="@style/Theme.TranslucentStatus"/>
+      android:theme="@style/Theme.TranslucentStatus">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".AppBarWithScrollbarsActivity"
-      android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+      android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
-    <activity android:name="androidx.appcompat.app.AppCompatActivity"/>
+    <activity android:name="androidx.appcompat.app.AppCompatActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".BottomNavigationViewActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".BottomSheetBehaviorActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".BottomSheetBehaviorWithInsetsActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".BottomSheetDialogActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".CoordinatorLayoutActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".DynamicCoordinatorLayoutActivity"
-      android:theme="@style/Theme.TranslucentStatus"/>
+      android:theme="@style/Theme.TranslucentStatus">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".FloatingActionButtonActivity"
-      android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".ExpandableTransformationActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".ExposedDropdownMenuActivity"
@@ -79,36 +139,76 @@
 
     <activity
       android:name=".NavigationViewActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".SnackbarActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".SnackbarWithTranslucentNavBarActivity"
-      android:theme="@style/Theme.TranslucentNavBar"/>
+      android:theme="@style/Theme.TranslucentNavBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".SnackbarWithFabActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".TabLayoutPoolingActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".TabLayoutWithViewPagerActivity"
-      android:theme="@style/Theme.AppCompat.NoActionBar"/>
+      android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".TextInputLayoutActivity"
-      android:theme="@style/Theme.MaterialComponents.NoActionBar"/>
+      android:theme="@style/Theme.MaterialComponents.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
     <activity
       android:name=".TextInputLayoutWithIconsActivity"
-      android:theme="@style/Theme.MaterialComponents.NoActionBar"
-      android:exported="false"/>
+      android:theme="@style/Theme.MaterialComponents.NoActionBar">
+
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
 
 
   </application>
