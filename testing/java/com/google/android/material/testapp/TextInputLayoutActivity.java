@@ -15,11 +15,22 @@
  */
 package com.google.android.material.testapp;
 
+import android.os.Bundle;
+
 import com.google.android.material.testapp.base.BaseTestActivity;
+import com.google.android.material.textfield.TextInputLayout;
 
 public class TextInputLayoutActivity extends BaseTestActivity {
   @Override
   protected int getContentViewLayoutResId() {
     return R.layout.design_text_input;
+  }
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+
+    TextInputLayout textInputWithErrors = findViewById(R.id.textinput_box_filled_with_error);
+    textInputWithErrors.setError("This is a rather long error message");
   }
 }

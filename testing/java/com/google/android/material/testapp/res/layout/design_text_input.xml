@@ -101,4 +101,20 @@
         android:layout_height="wrap_content"
         android:imeOptions="flagNoExtractUi"/>
   </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/textinput_box_filled_with_error"
+    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:helperText="@string/textinput_helper_not_enabled">
+
+    <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/textinput_edittext_filled_with_error"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/textinput_hint"
+      android:imeOptions="flagNoExtractUi"/>
+
+  </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>
